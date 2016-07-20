@@ -1,0 +1,29 @@
+{
+  "name": "redux-batch",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": "rinocloud/proto",
+  "description": "prototype repo for rinocloud submodules",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-core": "^6.6.5",
+    "babel-plugin-transform-object-rest-spread": "^6.6.5",
+    "babel-preset-es2015": "^6.6.0",
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3",
+    "redux": "^3.0.2",
+    "redux-actions": "^0.10.1",
+    "sinon": "^1.17.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
+  }
+}
